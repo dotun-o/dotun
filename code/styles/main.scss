@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700");
+
+$dark-gray: #292c33;
+$light-gray: #333740;
+$orange: #ffbb33;
+$light-cyan: #99cccc;
+$pink: #ff8080;
+
+$large-unit: 50px;
+$reg-unit: 20px;
+$small-unit: 10px;
+
+$thin-font-weight: 300;
+$reg-font-weight: 400;
+$thick-font-weight: 700;
+
+$trim-width: 960px;
+
+@mixin box-reset
+{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+* {@include box-reset;}
+
+html, body
+{
+    background: $dark-gray;
+    font-family: "Open Sans", sans-serif;
+    font-size: ($reg-unit - 3);
+    font-weight: $reg-font-weight;
+
+}
+
+header, nav, main, section, article, aside, footer {display: block;}
+
+#page-header, #main-nav
+{
+    padding:$reg-unit;
+    color: $dark-gray;
+    background: $orange;
+    text-align: center;
+}
+
+#page-title
+{
+    text-align: center;
+    font-size: $large-unit;
+    font-weight: $thin-font-weight;
+}
+
+#main-nav ul
+{
+    margin:0;
+    list-style: none;
+    font-weight: $thick-font-weight;
+}
+
+main
+{
+    padding: $reg-unit;
+    color: $light-cyan;
+}
+
+.col-2, .col-3 {padding: $reg-unit 0;}
+
+.callout
+{
+    margin: $reg-unit (-1 * $reg-unit);
+    padding: $large-unit $reg-unit;
+    background: $light-gray;
+}
+
+@media screen and (min-width: 641px)
+{
+    .trim-box
+    {
+        margin: auto;
+        max-width: $trim-width;
+        overflow: hidden;
+    }
+
+    .col-2
+    {
+        padding: 5%;
+        width:50%;
+        float: left;
+    }
+
+    .col-3
+    {
+        padding: 5%;
+        width: 33.33%;
+        float: left;
+    }
+
+    .callout > *
+    {
+        display: block;
+        margin: auto;
+        max-width: $trim-width + 100px;
+    }
+}
