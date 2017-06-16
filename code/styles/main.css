@@ -15,13 +15,25 @@ html, body {
 header, nav, main, section, article, aside, footer {
   display: block; }
 
+main section {
+  margin: 20px 0; }
+
 main {
   padding: 20px;
   color: #99cccc; }
 
 main h1, main h2, main h3, main h4, main h5, main h6 {
   color: #ffbb33;
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: center; }
+
+main .intro {
+  margin: 50px auto;
+  font-size: 25px; }
+
+main .intro h1 {
+  margin-bottom: 20px;
+  font-size: 40px; }
 
 a {
   color: inherit;
@@ -34,7 +46,7 @@ main a {
   color: #ff8080; }
 
 form {
-  margin: auto;
+  margin: 20px auto;
   max-width: 480px; }
 
 form > * {
@@ -58,6 +70,15 @@ input[type=submit], button {
 
 hr {
   border: 1px solid; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
 
 .align-left {
   text-align: left; }
@@ -114,7 +135,7 @@ hr {
   max-width: 960px;
   overflow: hidden; }
 
-.col-2 {
+.col-2, #webapps li, #websites li {
   padding: 5%;
   width: 50%;
   float: left; }
@@ -123,6 +144,9 @@ hr {
   padding: 5%;
   width: 33.33%;
   float: left; }
+
+#webapps ul, #websites ul {
+  list-style: none; }
 
 .callout {
   margin: 20px -20px;
@@ -165,7 +189,7 @@ hr {
     display: block;
     margin: 20px 0;
     padding: 10px; }
-  .col-2, .col-3 {
+  .col-2, .col-3, #webapps li, #websites li {
     padding: 20px 0;
     width: 100%;
     float: none; } }

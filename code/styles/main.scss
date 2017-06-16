@@ -39,6 +39,8 @@ html, body
 
 header, nav, main, section, article, aside, footer {display: block;}
 
+main section {margin: $reg-unit 0;}
+
 main
 {
     padding: $reg-unit;
@@ -49,6 +51,19 @@ main h1, main h2, main h3, main h4, main h5, main h6
 {
     color: $orange;
     font-weight: $thin-font-weight;
+    text-align: center;
+}
+
+main .intro
+{
+    margin: $large-unit auto;
+    font-size: ($large-unit / 2);
+}
+
+main .intro h1
+{
+    margin-bottom: $reg-unit;
+    font-size: ($large-unit - $small-unit);
 }
 
 a
@@ -63,8 +78,8 @@ main a {color: $pink;}
 
 form
 {
-    margin: auto;
-    max-width: ($trim-width / 2)
+    margin: $reg-unit auto;
+    max-width: ($trim-width / 2);
 }
 
 form > *
@@ -92,6 +107,10 @@ input[type=submit], button
 }
 
 hr {border: 1px solid;}
+
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.underline {text-decoration: underline;}
 
 .align-left {text-align: left;}
 .align-center {text-align: center;}
@@ -160,7 +179,7 @@ hr {border: 1px solid;}
     overflow: hidden;
 }
 
-.col-2
+.col-2, #webapps li, #websites li
 {
     padding: 5%;
     width: 50%;
@@ -173,6 +192,8 @@ hr {border: 1px solid;}
     width: 33.33%;
     float: left;
 }
+
+#webapps ul, #websites ul {list-style: none;}
 
 .callout
 {
@@ -232,7 +253,7 @@ hr {border: 1px solid;}
         padding: $small-unit;
     }
 
-    .col-2, .col-3
+    .col-2, .col-3, #webapps li, #websites li
     {
         padding: $reg-unit 0;
         width: 100%;

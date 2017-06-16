@@ -2,7 +2,7 @@
     require_once("includes/functions.php");
     require_once("includes/header.php");
 ?>
-    <section class="trim-box">
+    <section class="intro trim-box">
         <h1>Dotun Ogunsakin</h1>
         <p>Dotun Ogunsakin is a media artist &amp; web developer living in Atlanta, Georgia.</p>
         <p>He <!--<a href="http://art.dotun.me">-->creates art<!--</a>--> &amp; writes code, and aspires to combine both into interactive media experiences.</p>

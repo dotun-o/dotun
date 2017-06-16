@@ -21,8 +21,8 @@
         <nav id="main-nav">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li>Work</li>
-                <li>Resume</li>
+                <li><a href="work.php">Work</a></li>
+                <li><a href="resume.php">Resume</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
