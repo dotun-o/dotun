@@ -16,7 +16,7 @@
     <div class="trim-box">
         <div id="main-nav-button"><hr /><hr /><hr /></div>
 
-        <h1 id="page-title">Code by Dotun</h1>
+        <a href="index.php"><h1 id="page-title">Code by Dotun</h1></a>
         
         <nav id="main-nav">
             <ul>

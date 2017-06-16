@@ -150,7 +150,6 @@ hr {
     font-size: 25px; }
   #main-nav {
     width: 0%;
-    opacity: 0;
     overflow: hidden;
     float: none;
     position: fixed;

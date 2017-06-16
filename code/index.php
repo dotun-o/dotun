@@ -5,7 +5,7 @@
     <section class="trim-box">
         <h1>Dotun Ogunsakin</h1>
         <p>Dotun Ogunsakin is a media artist &amp; web developer living in Atlanta, Georgia.</p>
-        <p>He creates art &amp; writes code, and aspires to combine both into interactive media experiences.</p>
+        <p>He <!--<a href="http://art.dotun.me">-->creates art<!--</a>--> &amp; writes code, and aspires to combine both into interactive media experiences.</p>
         <p><a href="contact.php">Contact him</a> for any inquiries.</p>
     </section>
 
