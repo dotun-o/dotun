@@ -138,12 +138,12 @@ hr {
   max-width: 960px;
   overflow: hidden; }
 
-.col-2, #webapps li, #websites li {
+.col-2 {
   padding: 5%;
   width: 50%;
   float: left; }
 
-.col-3 {
+.col-3, #webapps li, #websites li {
   padding: 5%;
   width: 33.33%;
   float: left; }
@@ -164,7 +164,7 @@ hr {
   background: #333740; }
 
 #page-footer {
-  margin-top: 100px;
+  padding: 100px 0;
   color: #ffbb33;
   font-size: 13px;
   text-align: center; }

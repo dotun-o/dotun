@@ -181,14 +181,14 @@ hr {border: 1px solid;}
     overflow: hidden;
 }
 
-.col-2, #webapps li, #websites li
+.col-2
 {
     padding: 5%;
     width: 50%;
     float: left;
 }
 
-.col-3
+.col-3, #webapps li, #websites li
 {
     padding: 5%;
     width: 33.33%;
@@ -214,7 +214,7 @@ hr {border: 1px solid;}
 
 #page-footer
 {
-    margin-top: ($large-unit * 2);
+    padding: ($large-unit * 2) 0;
     color: $orange;
     font-size: ($reg-unit - 7);
     text-align: center;
