@@ -35,6 +35,9 @@ main .intro h1 {
   margin-bottom: 20px;
   font-size: 40px; }
 
+img {
+  max-width: 100%; }
+
 a {
   color: inherit;
   text-decoration: none; }
@@ -145,8 +148,15 @@ hr {
   width: 33.33%;
   float: left; }
 
+#websites {
+  margin-top: 50px; }
+
 #webapps ul, #websites ul {
-  list-style: none; }
+  list-style: none;
+  text-align: center; }
+
+#webapps img, #websites img {
+  border-radius: 10px; }
 
 .callout {
   margin: 20px -20px;

@@ -66,6 +66,8 @@ main .intro h1
     font-size: ($large-unit - $small-unit);
 }
 
+img {max-width: 100%;}
+
 a
 {
     color: inherit;
@@ -193,7 +195,15 @@ hr {border: 1px solid;}
     float: left;
 }
 
-#webapps ul, #websites ul {list-style: none;}
+#websites {margin-top: $large-unit;}
+
+#webapps ul, #websites ul
+{
+    list-style: none;
+    text-align: center;
+}
+
+#webapps img, #websites img {border-radius: $small-unit;}
 
 .callout
 {

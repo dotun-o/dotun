@@ -1,0 +1,9 @@
+CODE
+==========================================================================================
+
+COLORS
+Background - #292c33
+Title text - #ffbb33
+Body text - #ccffff vs #5ce5e5
+Link text - #5ce5e5 vs #ff8080
+Footer BG - #333740
