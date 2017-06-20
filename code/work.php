@@ -49,7 +49,7 @@
             <li>
                 <a href="http://code.dotun.me/">
                     <img src="images/thumb-code-by-dotun.png" alt="Screenshot: Code by Dotun"><br>
-                    Code by Dotun
+                    <span class="italic">this</span>
                 </a>
             </li>
             <li>
